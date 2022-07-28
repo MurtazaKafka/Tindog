@@ -1,5 +1,5 @@
-import dogsData from '../data.js'
-import Dog from '../Dog.js'
+import dogsData from 'data.js'
+import Dog from 'Dog.js'
 
 let currentDogIndex = 0;
 let currentDog = new Dog(dogsData[currentDogIndex])
