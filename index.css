@@ -1,0 +1,84 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    color: #fff;
+    background: linear-gradient( #FFFFFF, #efefefef);
+}
+
+main{
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.bar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon{
+    width: 1.5em;
+    height: 1.5em;
+    padding: .6em .6em 0 .6em;
+}
+
+.logo{
+    height: 1.5em;
+    padding: .6em .6em 0 .6em;
+}
+
+.avatar img{
+    display: block;
+    height: 73vh;
+    width: 100%;
+    position: relative;
+    margin: 0;
+    object-fit: cover;
+    padding: .65em 0 .4em 0;
+}
+
+.dog-info{
+    position: absolute;
+    top: 60vh;
+    text-shadow: black 3px 3px 3px;
+    padding: .0005em .05em 0 .5em;
+}
+
+.reactions{
+    display: flex;
+    justify-content: center;
+    padding: 0 0 .2em 0;
+}
+
+.reactions .icon{
+    
+    width: 1em;
+    height: 1em;
+}
+
+button{
+    border: none;
+    background: white;
+    border-radius: 100px;
+    display: inline-block;
+    padding: .4em .4em .6em .4em;
+    margin: .3em;
+    cursor: pointer;
+}
+
+.btn-heart:hover,
+.btn-heart:focus{
+    background-color: #DBFFF4;
+}
+
+.btn-cross:hover,
+.btn-cross:focus{
+    background-color: #FFE7EF;
+}
+
+.badge{
+    width: 45%;
+    position: absolute;
+    bottom: 65vh;
+    left: 5%;
+    transform: rotate(-30deg);
+}
